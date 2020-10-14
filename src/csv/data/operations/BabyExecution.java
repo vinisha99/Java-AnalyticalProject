@@ -16,18 +16,15 @@ public class BabyExecution {
 	private static final int[] years = new int[] { 2012, 2013, 2014 };
 
 	public static void main(String[] args) {
-		/*
-		 * Scanner sc = new Scanner(System.in); // int i, j; //
-		 * System.out.println("Enter start year: "); // i = sc.nextInt(); //
-		 * System.out.println("Enter end year: "); // j = sc.nextInt(); // //
-		 * List<Integer> babyRecordFiles = new ArrayList<>(); // /* for(; i <= j; i++) {
-		 * // // }
-		 */
+		
 		bExec = new BabyExecution();
 
 		try {
+			//reading excel data based on years
 			for (int year : years)
 				bExec.csvr.readFile(year);
+			
+			
 			System.out.println("\nUnique boy names in 2013 are " + bExec.csvr.uniqueBoyNames(years[1]));
 
 			System.out.println("\nYear of Highest rank: " + bExec.csvr.yearOfHighestRank("Noah", 'M'));
