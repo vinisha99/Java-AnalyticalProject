@@ -1,9 +1,9 @@
 # Java-AnalyticalProject
 Project that analyses baby data from CSV based on:
  - Common boy/girl names
- - Number of babies with unique/common names within a given year
+ - Number of babies with unique/common names born in a given year
  - Ratio of Boy babies vs Girl babies born in each year
- - Most trending Baby names for given years
+ - Most trending Baby names for a given year
  - Predicting names for future babies based on the past trend
  
 Skills Demonstrated:
